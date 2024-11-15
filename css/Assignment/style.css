@@ -1,0 +1,84 @@
+
+h1{
+    background-color: rgb(43, 226, 226);
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: black;
+    background-color: rgb(128, 124, 119);
+    font: bold;
+    width: 100%;
+    margin: auto;
+}
+.one{
+    background-color: rgb(230, 92, 92);
+    width:600px ;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+}
+#two{
+    background-color: rgb(118, 187, 112);
+    width: 600px;
+    margin: auto;
+    height: 100px;
+    padding: 5px;
+    display: flex; 
+
+}
+#three{
+    background-color: rgb(122, 190, 168);
+    width: 600px;
+    margin: auto;
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    
+}
+.four{
+    background-color: rgb(189, 120, 158);
+    width: 600px;
+    margin: auto;
+    height: 100px;
+    padding: 5px;
+    display: flex; 
+}
+.five{
+    background-color: rgb(133, 193, 233);
+    width: 600px;
+    margin: auto;
+    height: 100px;
+    padding: 5px;
+    display: flex;
+}
+h3{
+    font-weight: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+div{
+    border-style:groove;
+    border-width: 5px;
+    border-color:blue;
+    border-radius: 20px;
+}
+p{
+    text-align: center;    
+    padding: 30px;
+    height: 10px;
+    width: 480px;   
+}
+img{
+    height: 600px;
+    width: 710px;
+    float: left;
+    display: flex;
+    
+}

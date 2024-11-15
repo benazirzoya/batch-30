@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+table{
+    border: solid black;
+    height:500px;
+    width:500px;
+    font-size: 2em;
+    margin: auto;
+    padding: 10px;
+}
+    td{
+        padding: 5px;
+        text-align: center;
+        background-color: aquamarine;
+    }   
+    </style>
+</head>
+<body>
+    <form>
+        <table border="1px">
+            <caption><h1>Login</h1></caption>
+            <tr>
+                <td><label>Username</label></td>
+                <td><input type="text" name="Username" value="" required pattern="[A-Z]{7}"></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password" name="password" value="" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></td>
+            </tr>
+            <tr>
+               <td colspan="2"><input type="submit" value="signup"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

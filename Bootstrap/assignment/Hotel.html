@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+    .carousel img{
+         width:100%;
+         height:500px;
+    }
+    .navbar-header
+    {
+        color:rgb(131, 37, 95);
+        font-weight:bolder;
+        font-size:50px;
+    }
+    .nav-link
+    {
+        color:rgb(11,11,11);
+    }
+    h3{
+        padding-top:100px;
+        font-weight:bolder;
+        font-size:50px;
+    }
+    .margin
+    {
+        padding-left: 50px;
+    }
+    .btn1
+    {
+        border-radius: 30px;
+        background-color: rgb(212, 103, 167);
+        padding: 15px 55px;
+        font-size:20px;
+        margin-top:20px;
+        text-align: center;
+    }
+    .card
+    {
+        border: 50%;
+    }
+    .col-3{
+      background-color:rgb(224, 167, 167);
+    }
+    h1{
+      padding-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <div class="container">
+          <span class="navbar-header">HOTEL BOOKING HUB</span>
+          <ul class="nav justify-content-end">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Rooms">Rooms</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Facilities">Facilities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://st4.depositphotos.com/14431644/22078/i/450/depositphotos_220787362-stock-photo-writing-note-showing-hotel-booking.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://c8.alamy.com/comp/2BMP8AB/text-sign-showing-hotel-booking-business-photo-showcasing-online-reservations-presidential-suite-de-luxe-hospitality-2BMP8AB.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://c8.alamy.com/comp/2HC74DH/text-sign-showing-hotel-booking-word-for-online-reservations-presidential-suite-de-luxe-hospitality-voice-and-video-calling-capabilities-connecting-2HC74DH.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container bg-1" id="About">
+        <div class="row ">
+          <div class="col-6">
+            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="float: left;; margin-top: 100px;" alt="" width="550" height="550">
+          </div>
+          <div class="col-6">
+          <div class="margin" >
+            <h3> We hope you'll enjoy your stay</h3><hr>
+            <p><u><b>Features</b></u><br>
+                What the hotel offers, such as parking, Wi-Fi, room service, restaurants, and other amenities<br>
+                <u><b>Services</b></u><br>
+                What the hotel staff provides, such as professional service and room service<br>
+                <u><b>Food</b></u><br>
+                What the hotel's restaurants serve, such as a variety of foods and traditional European dishes<br>
+                <u><b>Cost</b></u><br>
+                Whether the hotel's costs are low</p><br>
+              <button type="button" class="btn1 btn-success" >Read More</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <section class="Rooms" id="Rooms">
+        <div class="container py-20 px-5">
+          <div class="row py-4">
+            <div class="col-lg-5 m-auto text-center">
+              <h1>Rooms</h1>
+              <p>Rooms are categorized by size, views, amenities, and other factors. Some common types of hotel rooms include single rooms, standard double rooms, standard twin rooms, deluxe double rooms, studio rooms, junior suites, executive suites, and presidential suites.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+            <div class="card py-6 text-center">
+              <div class="cardbody">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhweJ9JkoqXX_fQPa7ztElyWbScZgI-jW9-g&s" class="img-fluid" style="height: 150px; width: 150px;" alt="...">
+                <h4 class="cardtitle">Couple Suite</h4>
+                  <p class="card-text" >Along with all the modern amenities to make the stay of the couple a comfortable one. </p>
+                  <a href="#" class="btn  btn-outline-success pt-2" style="border-radius: 50px; ">Book</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="card py-6 text-center">
+              <div class="cardbody">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStJdt8NAXDs39JyTh0blSVykwZzvGaY9bNzh8d_Box2e491dkRX-kGHVLLOHnI6eizV8s&usqp=CAU" class="img-fluid" style="height: 150px; width: 250px;" alt="...">
+                <h4 class="cardtitle">Family Suite</h4>
+                  <p class="card-text">Furnished with a parents' bedroom with double bed, a children's bedroom with bunk bed .</p>
+                  <a href="#" class="btn btn-outline-success pt-2" style="border-radius: 50px; ">Book</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="card py-6 text-center">
+              <div class="cardbody">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-3nJEeRRKOpXcqrXQjN0O8MvnvejCXKcfSIxfEHhjluWsPitty5YgtcKkjLmRKxQWAI&usqp=CAU" class="img-fluid" style="height: 150px; width: 150px;" alt="...">
+                <h4 class="cardtitle">Friends Suite</h4>
+                  <p class="card-text">Furnished with beds' bedroom with four beds, friends's bedroom with bunk bed .</p>
+                  <a href="#" class="btn btn-outline-success pt-2 " style="border-radius: 50px; ">Book</a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-3">
+            <div class="card py-6 text-center">
+              <div class="cardbody">
+                <img src="https://hotelholyvivasa.com/hotel-images/1649701286.png" class="img-fluid" style="height: 150px; width: 250px;" alt="...">
+                <h4 class="cardtitle">Luxury Suite</h4>
+                  <p class="card-text">Furnished with a kingsize beds' bedroom with double bed, a children's bedroom with bunk bed .</p>
+                  <a href="#" class="btn btn-outline-success pt-2" style="border-radius: 50px; ">Book</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="Facilities" id="Facilities">
+        <div class="container  py-5">
+          <div class="row py-5">
+            <div class="col m-auto text-start">
+              <h1>Our Facilities</h1>
+              <p>"Hotel facilities" typically refer to areas or utilities that facilitate an activity, such as bars, restaurants, swimming pools, spas, tennis courts, and conference rooms.<br> 
+                "I love checking out the minibar in a hotel room. It's like opening a treasure chest".</p>
+            </div>
+              <div class="col text-end">
+              <div class="btn-group justify-content-end">
+                <a href="#one" class="btn btn-outline-success ">Rooms</a>
+                <a href="#two" class="btn btn-outline-success ">GYM</a>
+                <a href="#one" class="btn btn-outline-success ">Spa</a>
+                <a href="#two" class="btn btn-outline-success ">Restaurants</a>
+                <a href="#one" class="btn btn-outline-success ">Bars</a>
+                <a href="#two" class="btn btn-outline-success ">Pools</a>
+                <a href="#one" class="btn btn-outline-success ">Hotel Guests</a>
+                <a href="two" class="btn btn-outline-success ">Room Services</a>
+                
+              </div>
+              </div>
+              <div class="row ">
+                <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light">
+                  <div class="card-body" id="one">
+                       <img src="https://www.shutterstock.com/shutterstock/photos/2430488453/display_1500/stock-photo-travellers-asking-about-room-facility-finding-about-leisure-activities-at-luxury-hotel-tourists-2430488453.jpg" class="img-fluid"style="height: 250px; width:250px ;" alt="...">
+                  </div>
+                  <h4>Rooms</h4>
+                  <p>Easy Booking</p>
+                </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                  <div class="card border-0 bg-light">
+                    <div class="card-body">
+                         <img src="https://media.gettyimages.com/id/903405254/photo/small-gym-center-in-resort-hotel.jpg?s=612x612&w=0&k=20&c=kV1p0sg7KgaddLw4N8wfRLBQESQsqF9IkZRxIQBOLCA=" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                    </div>
+                    <h4>GYM</h4>
+                    <p>Gym for everyday work outs</p>
+                  </div>
+                  </div>
+                  <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light">
+                      <div class="card-body">
+                           <img src="data:image/jpeg;base64,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" class="img-fluid"style="height: 250px; width:250px ;" alt="...">
+                      </div>
+                      <h4> Spa</h4>
+                      <p>Spa and massage center</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                      <div class="card border-0 bg-light">
+                        <div class="card-body">
+                             <img src="https://media.istockphoto.com/id/1079901206/photo/3d-render-of-luxury-restaurant-interior.jpg?s=612x612&w=0&k=20&c=kKj5Uw0ZpuWKX8ZX6eXuKGc1sP86fMjIbZJFbWl9-ZM=" class="img-fluid"style="height: 250px; width:250px ;" alt="...">
+                        </div>
+                        <h6>Restaurants</h6>
+                        <p>Any time restaurants</p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light">
+                          <div class="card-body" id="two">
+                               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKlY501rICMohHKhBOLgmDhbDGBSMxpyBL5g&s" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                          </div>
+                          <h4>Bars</h>
+                          <p>Bars for relaxation/p>
+                        </div>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                          <div class="card border-0 bg-light">
+                            <div class="card-body">
+                                 <img src="https://media.istockphoto.com/id/1392157204/photo/fashionable-woman-sitting-by-the-pool-on-the-empty-deck.jpg?s=612x612&w=0&k=20&c=5eQ8hk8gLpIU4vLmAA6rR-2Qp9L9tkMuPByRacM6kA0=" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                            </div>
+                            <h6>Pools</h6>
+                            <p>Swimming Pools for kid and adults</p>
+                          </div>
+                          </div>
+                          <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light">
+                              <div class="card-body">
+                                   <img src="https://media.istockphoto.com/id/1268469291/photo/hotel-service-bell-concept-hotel-travel-room-modern-luxury-hotel-reception-counter-desk-on.jpg?s=612x612&w=0&k=20&c=CpI6gSizlG6rH45gKqbMmN2l9D7TOhBtGpNxD3wvv64=" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                              </div>
+                              <h4>Hotel Guests</h4>
+                              <p>Provides guests services also</p>
+                            </div>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                              <div class="card border-0 bg-light">
+                                <div class="card-body">
+                                     <img src="https://media.istockphoto.com/id/1434226130/photo/room-service-knocking-on-hotel-room-door.jpg?s=612x612&w=0&k=20&c=PVwleapLnIq5KB3qq4v3oPwF-c2da7vU2LgfRNBXb2o=" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                                </div>
+                                <h4>Room Services</h4>
+                                <p>Provides any time room services</p>
+                              </div>
+                              </div>
+              </div>
+          </div>
+          </div>
+          <section class="Contact" id="Contact">
+            <div class="container py-5">
+              <div class="col-lg-5 m-auto text-center">
+                <h1>Contact</h1>
+<form id="contact" name="contact" method="post">
+    <div class="mb-5 row">
+        <div class="col">
+            <label>First Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+        </div>
+        <div class="col">
+            <label>Last Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+        </div>
+    </div>
+    <div class="mb-5 row">
+        <div class="col">
+            <label for="email_addr">Email address</label>
+            <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                placeholder="name@example.com">
+        </div>
+        <div class="col">
+            <label for="phone_input">Phone</label>
+            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                placeholder="Phone">
+        </div>
+    </div>
+    <div class="mb-5">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary px-4 btn-lg">Post</button>
+    </div>
+  </form>
+</section> 
+</body>
+</html>
+
+      

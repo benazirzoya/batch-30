@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            text-align: center; 
+        }
+        nav{
+          border:5px solid black;
+        }  
+        form{
+            text-align:left;
+            font-size: larger;
+            font-weight: bold;
+            padding: 5px;
+            width: 100%;
+            height: auto;
+        }
+        footer {
+          text-align: center;
+          padding: 3px;
+          background-color: DarkSalmon;
+          color: white;
+        }
+        button{
+          background-color: rgb(196, 69, 23);
+          text-align: left;
+          font-weight: bolder;
+        }
+        .one input{
+          width:100%
+        }
+        .two input{
+          width:100%
+        }
+        .four{
+          text-align: right;
+        } 
+      @media(min-width:450px) and (max-width:600px)
+        {
+          form
+            {
+                display: block;
+                background-color: rgb(51, 104, 92);
+            }
+        }
+        @media(min-width:600px) and (max-width:900px)
+        {
+            form
+            {
+                display: block;
+                background-color: rgb(107, 110, 134);
+            }
+        }
+</style>      
+</head>
+<body>
+  <h1>Sign In Form</h1>
+  <nav>
+  <img src=".//images/girl.jpg" width="200" height="200"><br>
+  <form>     
+       <div class="one"> 
+       <label>Username</label><br>
+       <input type="text" name="name" value="Enter username" required><br><br>
+      </div>
+      <div class="two">
+      <label>Password</label><br>
+       <input type="text" name="password" value="Enter password" required><br><br>
+    </div>
+       <footer>
+        <p>Login<br></p>
+      </footer>
+      <div class="three">
+      <input type="checkbox" name="Language" value="">
+      <label>Remember me</label><br><br>
+      </div>
+      <button>Cancel</button>
+      <div class="four">
+      <label>Forgot</label>
+      <a href="#" class="btn btn-primary">Password?</a>
+      </form>
+      </nav>
+</body>
+</html>
